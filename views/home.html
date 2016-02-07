@@ -1,0 +1,14 @@
+<div class="main">
+  <div class="container">
+
+    <h2>Stores List</h2>
+    <div class="row">
+      <div class="item col-md-4" ng-repeat="store in stores">
+        <h3><a href="#/stores/{{$index}}">{{$index}}</a></h3>
+      </div>
+      <h3>Create new note</h3>
+      <input type="button" value="Edit">
+    </div>
+
+  </div>
+</div>
