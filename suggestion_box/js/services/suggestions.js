@@ -19,7 +19,12 @@ app.factory('suggestions', [function(){
 			{
 				title: 'Shu mai (Chicken)',
 				upvotes: 19,
-				comments: ['Pan fry is good'],
+				comments: [
+					{
+						body: 'Pan fry is good',
+						upvote: 10,
+					}
+				],
 			}
 		]
 	};
